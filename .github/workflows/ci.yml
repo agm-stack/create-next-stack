@@ -31,8 +31,11 @@ jobs:
         run: |
           npm pack
           mkdir -p "$RUNNER_TEMP/consumer" && cd "$RUNNER_TEMP/consumer"
-          npx --yes "$GITHUB_WORKSPACE"/agm-stack-create-next-stack-*.tgz --help
-          npx --yes "$GITHUB_WORKSPACE"/agm-stack-create-next-stack-*.tgz smoke-app --minimal --yes --no-install --no-git
+          # A bare path makes npx try to execute the .tgz itself; install it as
+          # a package and run its bin instead, like `npm create` does.
+          TARBALL=$(ls "$GITHUB_WORKSPACE"/agm-stack-create-next-stack-*.tgz)
+          npx --yes --package="$TARBALL" create-next-stack --help
+          npx --yes --package="$TARBALL" create-next-stack smoke-app --minimal --yes --no-install --no-git
           test -f smoke-app/package.json
 
   # Generates real projects and runs their own checks, so template drift
