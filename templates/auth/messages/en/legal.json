@@ -1,0 +1,34 @@
+{
+  "termsPage": {
+    "sections": {
+      "accounts": {
+        "title": "Your account",
+        "paragraphs": [
+          "You sign in with your email address or a Google account. Keep access to your email and Google account secure: anyone with access to them can sign in as you.",
+          "You are responsible for activity under your account. You can delete your account at any time from your dashboard."
+        ]
+      }
+    }
+  },
+  "privacyPage": {
+    "sections": {
+      "accountData": {
+        "title": "Account data",
+        "paragraphs": [
+          "When you create an account, we store your email address, your sign-in method, the version of the Terms you accepted and your preferences. If you sign in with Google, we receive your name, email address and profile picture from Google.",
+          "We keep account data until you delete your account, which removes it permanently."
+        ]
+      }
+    },
+    "processors": {
+      "google": "Google, if you choose to sign in with Google.",
+      "hcaptcha": "hCaptcha, when a captcha is shown, to tell people from bots."
+    }
+  },
+  "cookiePage": {
+    "storage": {
+      "session": "Sign-in cookies (sb-…-auth-token), set through Supabase Auth: keep you signed in securely. Kept until you sign out or your session expires.",
+      "hcaptcha": "hCaptcha: when a captcha is shown, hCaptcha may use cookies or storage on its own domain to tell people from bots."
+    }
+  }
+}

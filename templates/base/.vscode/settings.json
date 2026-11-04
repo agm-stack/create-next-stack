@@ -1,0 +1,53 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.useFlatConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "always",
+    "source.organizeImports": "explicit"
+  },
+  "stylelint.run": "onSave",
+  "stylelint.validate": [
+    "css",
+    "tailwindcss"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.experimental.configFile": "src/styles/index.css",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[scss]": {
+    "editor.autoIndent": "full",
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.detectIndentation": false,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.autoIndent": "full",
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.detectIndentation": false,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[tailwindcss]": {
+    "editor.autoIndent": "full",
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.detectIndentation": false,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
+}

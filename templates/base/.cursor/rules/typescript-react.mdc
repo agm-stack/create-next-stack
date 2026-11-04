@@ -1,0 +1,11 @@
+---
+description: TypeScript and React conventions for application code
+globs:
+  - "src/**/*.ts"
+  - "src/**/*.tsx"
+alwaysApply: false
+---
+
+For TypeScript or React source changes, read and follow
+`docs/agent-rules/typescript-react.md`. Do not load unrelated agent-rule
+documents.

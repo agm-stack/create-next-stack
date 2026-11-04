@@ -1,0 +1,10 @@
+# pnpm only runs dependency install scripts that are listed here.
+allowBuilds:
+  '@parcel/watcher': true
+  '@swc/core': true
+  esbuild: true
+  sharp: false
+  unrs-resolver: false
+  # @if cloudflare
+  workerd: true
+  # @endif

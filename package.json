@@ -1,0 +1,75 @@
+{
+  "name": "@agm-stack/create-next-stack",
+  "version": "0.1.0",
+  "description": "Scaffold a production-ready Next.js App Router project with strict TypeScript, Tailwind CSS v4 and optional Supabase auth, i18n, React Query, legal pages and Cloudflare deployment.",
+  "keywords": [
+    "create",
+    "create-next-app",
+    "nextjs",
+    "next",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "supabase",
+    "next-intl",
+    "tanstack-query",
+    "cloudflare",
+    "scaffold",
+    "starter",
+    "template",
+    "cli"
+  ],
+  "author": "Adrian Manduc",
+  "license": "MIT",
+  "homepage": "https://github.com/agm-stack/create-next-stack#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agm-stack/create-next-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agm-stack/create-next-stack/issues"
+  },
+  "type": "module",
+  "bin": {
+    "create-next-stack": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "templates",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node scripts/start.ts",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "test:update": "node --test --test-update-snapshots \"tests/**/*.test.ts\"",
+    "e2e": "node scripts/e2e.ts",
+    "pack:check": "npm pack --dry-run",
+    "prepublishOnly": "npm run lint && npm run typecheck && npm test && npm run build",
+    "prepare": "husky",
+    "commitlint": "commitlint"
+  },
+  "devDependencies": {
+    "@agm-stack/eslint-config-next": "^0.1.0",
+    "@clack/prompts": "^1.8.1",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "@types/node": "^24.19.2",
+    "eslint": "^9.39.5",
+    "husky": "^9.1.7",
+    "picocolors": "^1.1.1",
+    "tsup": "^9.0.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

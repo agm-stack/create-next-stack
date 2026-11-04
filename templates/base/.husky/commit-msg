@@ -1,0 +1,1 @@
+__PM_EXEC__ commitlint --edit "$1"

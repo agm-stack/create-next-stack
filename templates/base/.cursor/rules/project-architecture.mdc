@@ -1,0 +1,8 @@
+---
+description: Project architecture, feature folders, and implementation boundaries
+alwaysApply: true
+---
+
+For architecture, project-structure, or integration work, read and follow
+`docs/agent-rules/project-architecture.md`. Do not load unrelated agent-rule
+documents.

@@ -1,0 +1,7 @@
+---
+description: Small, bounded workflow for Cursor implementation prompts
+alwaysApply: true
+---
+
+For implementation tasks, read and follow `docs/agent-rules/workflow.md`.
+Load only the rule documents relevant to the files and prompt being changed.

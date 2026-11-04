@@ -1,0 +1,44 @@
+{
+  "description": "__APP_DESCRIPTION__",
+  "close": "Close",
+  "home": {
+    "title": "__APP_NAME__",
+    "getStarted": "Get started",
+    "openDashboard": "Open dashboard",
+    "designSystem": "View the design system"
+  },
+  "footer": {
+    "description": "__APP_DESCRIPTION__",
+    "copyright": "© {year} __APP_NAME__. All rights reserved."
+  },
+  "errorPage": {
+    "description": "An unexpected error occurred. You can try again, or head back to the homepage.",
+    "home": "Go to homepage",
+    "retry": "Try again",
+    "title": "Something went wrong"
+  },
+  "notFound": {
+    "description": "The page you're looking for doesn't exist or may have been moved.",
+    "home": "Go to homepage",
+    "title": "Page not found"
+  },
+  "form": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "apiErrors": {
+    "badRequest": "Please check the information and try again.",
+    "conflict": "This conflicts with existing data. Please review and try again.",
+    "forbidden": "You don't have permission to do that.",
+    "generic": "We couldn't complete the request. Please try again.",
+    "limitReached": "You've reached a limit on your account.",
+    "network": "Please check your connection and try again.",
+    "notFound": "We couldn't find what you requested.",
+    "rateLimit": "Too many requests. Please wait a moment and try again.",
+    "server": "The service is temporarily unavailable. Please try again later.",
+    "title": "Request failed",
+    "unauthorized": "Please sign in and try again.",
+    "validation": "Please check the information and try again."
+  }
+}

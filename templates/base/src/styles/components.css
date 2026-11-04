@@ -1,0 +1,5 @@
+@layer components {
+  [data-slot="button"]:not(:disabled, [aria-disabled="true"]) {
+    cursor: pointer;
+  }
+}

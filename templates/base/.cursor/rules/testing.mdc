@@ -1,0 +1,13 @@
+---
+description: Testing conventions and validation priorities
+globs:
+  - "**/*.test.ts"
+  - "**/*.test.tsx"
+  - "**/*.spec.ts"
+  - "**/*.spec.tsx"
+  - "vitest.config.*"
+alwaysApply: false
+---
+
+For test or validation changes, read and follow
+`docs/agent-rules/testing.md`. Do not load unrelated agent-rule documents.

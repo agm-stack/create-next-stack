@@ -1,0 +1,246 @@
+{
+  "footer": {
+    "label": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy"
+  },
+  "cookiesBanner": {
+    "accept": "Accept all",
+    "decline": "Decline",
+    "managePreferences": "Configure",
+    "title": "We use cookies",
+    "description": "We use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our <link>cookie policy</link>. By clicking <highlight>Accept</highlight> you agree to our use of all cookies."
+  },
+  "cookiesModal": {
+    "accept": "Accept all",
+    "analytics": {
+      "description": "Used to gather stats on site usage and improve user experience.",
+      "title": "Analytics"
+    },
+    "decline": "Decline all",
+    "description": "Choose to accept or decline cookies. Declining may affect site functionality.",
+    "disclaimer": "Read our <link>cookie policy</link> for additional details.",
+    "essential": {
+      "description": "Required for core site functionality, sign-in, security, and reliability.",
+      "title": "Essential"
+    },
+    "functional": {
+      "description": "Remembers optional preferences, such as notices you have dismissed.",
+      "title": "Functional"
+    },
+    "marketing": {
+      "description": "Used to deliver ads, personalize content, and track ad performance.",
+      "title": "Marketing"
+    },
+    "save": "Save",
+    "title": "Configure your cookie preferences"
+  },
+  "operator": {
+    "title": "Operator",
+    "company": "Company",
+    "country": "Registered in",
+    "address": "Registered address",
+    "registrationNumber": "Registration number",
+    "vatId": "VAT ID",
+    "email": "Contact"
+  },
+  "common": {
+    "lastUpdated": "Last updated: {date}",
+    "contactTitle": "Contact us",
+    "contactLead": "If you have any questions about this policy, contact us at"
+  },
+  "termsPage": {
+    "title": "Terms of Service",
+    "sections": {
+      "agreement": {
+        "title": "Agreement to these Terms",
+        "paragraphs": [
+          "These Terms of Service govern your use of __APP_NAME__ (the \"Service\"). By using the Service you agree to these Terms. If you do not agree, do not use the Service.",
+          "You must be at least 16 years old, or the age of digital consent in your country, to use the Service."
+        ]
+      },
+      "service": {
+        "title": "The Service",
+        "paragraphs": [
+          "We may change, suspend or discontinue any part of the Service at any time. We try to give reasonable notice of changes that materially affect you."
+        ]
+      },
+      "acceptableUse": {
+        "title": "Acceptable use",
+        "lead": "You agree not to:",
+        "items": [
+          "break any law or infringe anyone's rights while using the Service;",
+          "upload or share content that is unlawful, harmful, misleading or that you have no right to share;",
+          "attempt to access accounts, systems or data you are not authorized to access;",
+          "interfere with, overload or disrupt the Service, including through automated access that bypasses our limits;",
+          "reverse engineer the Service, except where the law allows it."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "Intellectual property",
+        "paragraphs": [
+          "The Service, including its software, design and branding, belongs to us or our licensors. These Terms do not give you any rights to it beyond using the Service as offered.",
+          "You keep ownership of the content you submit. You give us a limited license to host, store and display it only as needed to provide the Service to you."
+        ]
+      },
+      "thirdParty": {
+        "title": "Third-party services",
+        "paragraphs": [
+          "The Service relies on third-party providers and may link to third-party websites. Their own terms and privacy policies apply to them, and we are not responsible for them."
+        ]
+      },
+      "termination": {
+        "title": "Termination",
+        "paragraphs": [
+          "You can stop using the Service at any time. We may suspend or end your access if you breach these Terms or if we must do so by law."
+        ]
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "paragraphs": [
+          "The Service is provided \"as is\" and \"as available\", without warranties of any kind, to the extent the law allows."
+        ]
+      },
+      "liability": {
+        "title": "Limitation of liability",
+        "paragraphs": [
+          "To the extent the law allows, we are not liable for indirect, incidental or consequential damages, or for loss of data, profits or revenue, arising from your use of the Service. Nothing in these Terms limits liability that cannot be limited by law."
+        ]
+      },
+      "changes": {
+        "title": "Changes to these Terms",
+        "paragraphs": [
+          "We may update these Terms. The \"Last updated\" date above shows the latest version. If a change is material, we will tell you before it takes effect. Continuing to use the Service after that means you accept the updated Terms."
+        ]
+      },
+      "governingLaw": {
+        "title": "Governing law",
+        "paragraphs": [
+          "These Terms are governed by the laws of the country where the operator is registered, without affecting any mandatory consumer protection rights you have where you live."
+        ]
+      }
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "paragraphs": [
+          "This Privacy Policy explains how we collect and use personal data when you use __APP_NAME__ (the \"Service\"). The operator listed above is the controller of that data."
+        ]
+      },
+      "information": {
+        "title": "Information we collect",
+        "lead": "When you use the Service, we and our providers process:",
+        "items": [
+          "technical data sent by your browser, such as your IP address, browser type and the pages you request, to deliver and secure the Service;",
+          "anything you choose to send us, for example when you contact us by email."
+        ]
+      },
+      "use": {
+        "title": "How we use your data",
+        "lead": "We use personal data to:",
+        "items": [
+          "provide, maintain and secure the Service;",
+          "respond to your requests;",
+          "comply with our legal obligations."
+        ],
+        "after": [
+          "We do not sell your personal data and do not use it for advertising."
+        ]
+      },
+      "legalBasis": {
+        "title": "Legal bases",
+        "paragraphs": [
+          "Where the GDPR applies, we process personal data to perform our contract with you, for our legitimate interest in running a secure and reliable Service, and to comply with legal obligations. Where we rely on consent, you can withdraw it at any time."
+        ]
+      },
+      "processors": {
+        "title": "Service providers",
+        "lead": "We share personal data only with providers that help us run the Service, under agreements that protect it:"
+      },
+      "transfers": {
+        "title": "International transfers",
+        "paragraphs": [
+          "Some providers may process data outside your country. Where required, transfers rely on adequacy decisions or standard contractual clauses."
+        ]
+      },
+      "retention": {
+        "title": "Retention",
+        "paragraphs": [
+          "We keep personal data only as long as needed for the purposes above, then delete or anonymize it, unless the law requires us to keep it longer."
+        ]
+      },
+      "security": {
+        "title": "Security",
+        "paragraphs": [
+          "We use technical and organizational measures, such as encryption in transit and access controls, to protect personal data. No system is perfectly secure, but we work to protect your data and respond to incidents."
+        ]
+      },
+      "rights": {
+        "title": "Your rights",
+        "lead": "Depending on where you live, you can ask to access, correct, delete, restrict or port your personal data, and object to its processing. To exercise these rights, contact us at the address below.",
+        "authority": "You can also lodge a complaint with a data protection authority:"
+      },
+      "cookies": {
+        "title": "Cookies",
+        "paragraphs": [
+          "Our Cookie Policy explains which cookies and similar technologies we use."
+        ]
+      },
+      "children": {
+        "title": "Children",
+        "paragraphs": [
+          "The Service is not directed at children under 16, and we do not knowingly collect their personal data."
+        ]
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this policy. The \"Last updated\" date above shows the latest version, and we will tell you about material changes."
+        ]
+      }
+    },
+    "processors": {
+      "hosting": "Our hosting provider, which serves the website and processes technical request data."
+    }
+  },
+  "cookiePage": {
+    "title": "Cookie Policy",
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "paragraphs": [
+          "This Cookie Policy explains how __APP_NAME__ uses cookies and similar technologies, such as your browser's local storage."
+        ]
+      },
+      "used": {
+        "title": "Cookies and storage we use",
+        "lead": "We only use cookies and storage that are strictly necessary to provide the Service you request. They do not require consent, so we do not show a cookie banner."
+      },
+      "analytics": {
+        "title": "Analytics and advertising",
+        "paragraphs": [
+          "We do not use analytics, advertising or social media tracking cookies. If this changes, we will update this policy and ask for your consent first, where the law requires it."
+        ]
+      },
+      "control": {
+        "title": "Controlling cookies",
+        "paragraphs": [
+          "You can block or delete cookies and local storage in your browser settings. If you block strictly necessary cookies, parts of the Service may not work."
+        ]
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "paragraphs": [
+          "We may update this Cookie Policy. The \"Last updated\" date above shows the latest version."
+        ]
+      }
+    },
+    "storage": {
+      "none": "We currently set no cookies of our own. Our hosting provider may set strictly necessary security cookies."
+    }
+  }
+}

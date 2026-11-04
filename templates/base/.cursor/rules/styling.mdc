@@ -1,0 +1,10 @@
+---
+description: Application styling with Tailwind, shadcn/Base UI and semantic tokens
+globs:
+  - "src/**/*.tsx"
+  - "src/**/*.css"
+alwaysApply: false
+---
+
+For TSX or CSS styling changes, read and follow
+`docs/agent-rules/styling.md`. Do not load unrelated agent-rule documents.

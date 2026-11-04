@@ -1,0 +1,7 @@
+{
+  "privacyPage": {
+    "processors": {
+      "supabase": "Supabase, which hosts our database and authentication."
+    }
+  }
+}

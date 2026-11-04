@@ -1,0 +1,12 @@
+{
+  "privacyPage": {
+    "processors": {
+      "cloudflare": "Cloudflare, which hosts and protects the website and processes technical request data."
+    }
+  },
+  "cookiePage": {
+    "storage": {
+      "cloudflare": "Security cookies (__cf_bm, cf_clearance), set by our hosting provider Cloudflare: detect bots and remember that you passed a security check. Kept for up to 30 minutes, or for the length of the security check."
+    }
+  }
+}
