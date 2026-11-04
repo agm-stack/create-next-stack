@@ -1,6 +1,6 @@
 {
   "name": "@agm-stack/create-next-stack",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Scaffold a production-ready Next.js App Router project with strict TypeScript, Tailwind CSS v4 and optional Supabase auth, i18n, React Query, legal pages and Cloudflare deployment.",
   "keywords": [
     "create",
